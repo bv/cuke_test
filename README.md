@@ -4,6 +4,7 @@ cuke_test
 Minimal code to reproduce html formatting error in cucumber
 
 To Reproduce
+Run `bundle install` to get cucumber and rspec gems installed, then
 Run `cucumber -f html features`
 The *Pass this test* scenario has a red background on its header indicating a failure.
 
